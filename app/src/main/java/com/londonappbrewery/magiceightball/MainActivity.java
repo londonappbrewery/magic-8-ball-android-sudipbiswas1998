@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
                 R.drawable.ball4,
                 R.drawable.ball5
         };
-        Button myButton= (Button) findViewById(R.id.button);
+        Button myButton= (Button) findViewById(R.id.askButton);
         myButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
